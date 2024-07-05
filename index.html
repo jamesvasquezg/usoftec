@@ -1,464 +1,474 @@
 <!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="es"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7"lang="es"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="es"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
 <html lang="es">
-    <head>
-        <title>Usoftec</title>
-        <!--Ceo y posicionamiento web-->
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-        <meta name="author" content="Usoftec"/>
-        <meta name="title" content="Usoftec" >
-        <meta name="description" content="Aprende software de ingeniería, ofimática y diseño gráfico a cualquier hora y en cualquier lugar"/>
-        <meta name="disribution" content="global"/>
-        <meta name="copyright" content="Copyright 2022 by Usoftec" />
-        <meta name="theme-color" content="#34515e"/>
-        <!--###########################-->
-        <!--Targetas de Twitter-->
-        <meta name="twitter:title" content="Usoftec"/>
-        <meta name="twitter:description" content="Aprende software de ingeniería ofimática y diseño gráfico a cualquier hora y en cualquier lugar"/>
-        <meta name="twitter:card" content="photo"/>
-        <meta name="twitter:site" content="@Usoftec"/>
-        <meta name="twitter:url" content="https://www.usoftec.com" />
-        <meta name="twitter:image" content="https://www.usoftec.com/img/logoschooltec.png"/>
-        <!--###################-->
-        <!-- Open Graph data Facebook -->
-        <meta property="og:title" content="Usoftec"/>
-        <meta property="og:description" content="Aprende software de ingeniería ofimática y diseño gráfico a cualquier hora y en cualquier lugar"/>
-        <meta property="og:type" content="Article" />
-        <meta property="og:site_name" content="Usoftec"/>
-        <meta property="og:url" content="https://www.usoftec.com" />
-        <meta property="og:image" content="https://www.usoftec.com/img/logousoftec.png"/>
-        <!--###########################--> 
-        <!--Fuentes, estylos, javascript y favicon-->
-        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png"/>
-        <link rel="stylesheet" media="all" href="css/stylos.css"/>
-        <link rel="stylesheet" href="css/iconos/iconos.css"/>
-        <link rel="canonical" href="https://www.usoftec.com"/>
-        <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet"/>
-        <script src="js/main.js" data-turbolinks-track="true"></script>
-        <!--#######################################-->
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170661233-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+<!--<![endif]-->
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v23.0 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Comunidad | Golazoz</title>
+	<link rel="canonical" href="https://golazoz.com/chat/" />
+	<meta property="og:locale" content="es_ES" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Comunidad | Golazoz" />
+	<meta property="og:url" content="https://golazoz.com/chat/" />
+	<meta property="og:site_name" content="Golazoz" />
+	<meta property="article:modified_time" content="2024-07-05T22:09:06+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://golazoz.com/chat/","url":"https://golazoz.com/chat/","name":"Comunidad | Golazoz","isPartOf":{"@id":"https://golazoz.com/#website"},"datePublished":"2023-05-14T00:24:31+00:00","dateModified":"2024-07-05T22:09:06+00:00","breadcrumb":{"@id":"https://golazoz.com/chat/#breadcrumb"},"inLanguage":"es","potentialAction":[{"@type":"ReadAction","target":["https://golazoz.com/chat/"]}]},{"@type":"BreadcrumbList","@id":"https://golazoz.com/chat/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Portada","item":"https://golazoz.com/"},{"@type":"ListItem","position":2,"name":"Comunidad"}]},{"@type":"WebSite","@id":"https://golazoz.com/#website","url":"https://golazoz.com/","name":"Golazoz","description":"Actualidad del mundo del Fútbol Nacional e Internacional","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://golazoz.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"es"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+    <link rel='dns-prefetch' href='//stats.wp.com' />
+    <link rel='dns-prefetch' href='//i0.wp.com' />
+    <link rel='dns-prefetch' href='//c0.wp.com' />
+    <link rel="alternate" type="application/rss+xml" title="Golazoz &raquo; Feed" href="https://golazoz.com/feed" />
+    <link rel="alternate" type="application/rss+xml" title="Golazoz &raquo; Feed de los comentarios" href="https://golazoz.com/comments/feed" />
+    <link rel='stylesheet' id='all-css-d073434f1bdd068ac8758ad59b003ed1' href='https://golazoz.com/_static/??-eJwrL9BNzs8rSc0r0S/JSM1NLdZPz89JrMqvqtJPLi7Wz8svyk3MyaxK1QPydMpxKy4uqczBUFSQU5qemVesn5VaUpCYnA02EcoGKbXPtTU0NzSzMDIwNTEBAGSxM0U=' type='text/css' media='all' />
     
-            gtag('config', 'UA-170661233-1');
-        </script>
-        <!--#################################################-->
-    </head>
-    <body style="background: #29434e;">
-        <div id="user-data" class="absolute z-depth-2 white" data-open="false" data-turbolinks-permanent>
-            <div>
-                <nav>
-                    <ul class='no-list collection main-nav'>
-                        <div class='collection-item no-padding-large user-nav' style='font-size:1.1em;'>
-                            <a class="grey-hover" href="index.html">
-                                <li class='top-space row middle-xs grey-hover lighten-3-hover'>Inicio</li>
-                            </a>
-                            <a class="grey-hover" href="cursos.html">
-                                <li class='top-space row middle-xs grey-hover lighten-3-hover'>Cursos</li>
-                            </a>
-                            <a href="blog.html">
-                                <li class='top-space row middle-xs grey-hover lighten-3-hover'>Blog</li>
-                            </a>
-                            <a href="talleres.html">
-                                <li class='top-space row middle-xs grey-hover lighten-3-hover'>Blog</li>
-                            </a>
-                            <a href="https://www.paypal.com/donate?hosted_button_id=H2ADNQ4D6799W" target="_blank">
-                                <li class='top-space row middle-xs grey-hover lighten-3-hover'>Donar</li>
-                            </a>
-                        </div>
-                    </ul>
-                </nav>    
+    <style id='golazoz-style-inline-css'>
+
+	    ::-moz-selection {
+			background-color: ;
+			color: #000;
+		}
+		::selection {
+			background-color: ;
+			color: #000;
+		}
+
+	    body {
+			background-color: ;
+			color: ;
+		}
+
+		.single .post-content  { font-size: px; }
+		
+	
+        h1,h2,h3,h4,h5,h6, #gz-top-bar .top-menu li a, .stick-category a, .gz-featured-area article .feature-category, .gz-loop-tabs a, span.category a, .gz-widget .menu li a, .gz-load-more, .fn, .fn a { font-weight : ; }
+
+	    .post-header .title { font-size: 22px; }
+
+	    .stick-category a, span.category a, .gz-picture .format-overlay, .single .tags .tag, .reply a, input[type='submit'], button { color: ; background-color: ; }
+	
+
+	    #gz-top-bar { background-color: ; }
+
+	    #gz-top-bar, #gz-top-bar a { color: #ffffff; }
+
+	    .menu-icon span, .menu-icon span:before, .menu-icon span:after { background-color: #ffffff; }
+	
+	    #gz-top-bar .top-menu li .sub-menu, #gz-top-bar .top-menu li.gz-megamenu .megamenu, .gz-drawer, .gz-drawer .gz-widget-title .title, #gz-drawer .gz-fwposts-widget .item-content .item-cell { background-color: ; }
+
+	    #gz-top-bar .top-menu li .sub-menu li a, #gz-top-bar .top-menu li.gz-megamenu .megamenu-list li a, .gz-drawer, .gz-drawer a, .gz-drawer .gz-widget-title .title, .gz-drawer .gz-widget.widget_mc4wp_form_widget:before, .gz-drawer h1, .gz-drawer h2, .gz-drawer h3, .gz-drawer h4, .gz-drawer h5, .gz-drawer h6 { color: ; }
+
+	    #gz-top-bar .top-menu li .sub-menu li a:hover { background-color: ; color: ; }
+	    #gz-top-bar .top-menu li.gz-megamenu .megamenu .cats-list { background-color: ; }
+	    #gz-top-bar .top-menu li.gz-megamenu .megamenu .cats-list .cat-link { color: ; }
+	    #gz-top-bar .top-menu li.gz-megamenu .megamenu .cats-list .active:after { border-color: ; }
+
+	    h1, h2, h3, h4, h5, h6,	blockquote, q, .title a, .single .tags a, .gz-page-links a, .fn, .fn a, .gz-author-socials a, .gz-load-more, .gz-loop-tabs a, .owl-theme .owl-controls .owl-nav div { color: ; }
+
+	    .post-excerpt p, .gz-box p { color: ; }
+
+	    .meta,.commentmetadata a, .gz-featured-area article .feature-meta, .gz-box span, #respond small { color: ; }
+
+	    #gz-sidebar .gz-widget-title .title, #gz-sidebar .gz-widget.widget_mc4wp_form_widget:before { color: ; }
+
+	    .gz-latest-featured .sticky-content .cell-inner, #gz-sidebar .gz-widget-title .title, .single .post-header, .page .gz-normal-page .post-header, .owl-theme .owl-controls .owl-nav div, #gz-sidebar .gz-fwposts-widget .item-content .item-cell { background-color: ; }
+
+	    .owl-theme .owl-controls .owl-nav div:hover { color: ; background-color: ; }
+
+	    footer { background-color: ; color: ;	}
+	    footer a, footer .title a { color: ; }
+	    footer a:hover, footer .title a:hover { color:  ; }
+
+	    footer .gz-widget.widget_mc4wp_form_widget:before, footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 { color: ; }
+
+	    #gz-footer-sidebar .gz-widget-title .title { color: ; background-color: ; }
+
+	    #gz-footer-sidebar .gz-fwposts-widget .item-content .item-cell { background-color: ; }
+
+	    a, blockquote:before, q:before,	#gz-top-bar a:hover, #gz-top-bar li.current-menu-item > a, .gz-drawer a:hover, .title a:hover, #gz-sidebar a:hover { color: ; }
+		
+	    a:hover, #gz-sidebar, #gz-sidebar a { color: ; }
+
+	    .stick-category a:hover, .gz-loop-tabs a:hover, .gz-loop-tabs a.active, span.category a:hover, .gz-socials .social-icons a:hover, .gz-trending-posts .gz-fwposts-widget .item:before, .gz-picture:hover .format-overlay, .gz-load-more:hover, .single .tags a:hover, .gz-page-links a:hover, .reply a:hover, input[type='submit']:hover, button:hover, .gz-author-socials a:hover, .overlay-search .searchform button:hover, footer input[type='submit'], footer button, .gz-loop-posts article.sticky .category:before { background-color: ; color: ; }
+
+	    .gz-loop-tabs a.active:after { border-color: ; }
+
+    </style>
+    <style id='jetpack-sharing-buttons-style-inline-css'>
+    .jetpack-sharing-buttons__services-list{display:flex;flex-direction:row;flex-wrap:wrap;gap:0;list-style-type:none;margin:5px;padding:0}.jetpack-sharing-buttons__services-list.has-small-icon-size{font-size:12px}.jetpack-sharing-buttons__services-list.has-normal-icon-size{font-size:16px}.jetpack-sharing-buttons__services-list.has-large-icon-size{font-size:24px}.jetpack-sharing-buttons__services-list.has-huge-icon-size{font-size:36px}@media print{.jetpack-sharing-buttons__services-list{display:none!important}}.editor-styles-wrapper .wp-block-jetpack-sharing-buttons{gap:0;padding-inline-start:0}ul.jetpack-sharing-buttons__services-list.has-background{padding:1.25em 2.375em}
+    </style>
+    <style id='classic-theme-styles-inline-css'>
+    /*! This file is auto-generated */
+    .wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+    </style>
+    <style id='global-styles-inline-css'>
+    body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--albert-sans: 'Albert Sans', sans-serif;--wp--preset--font-family--alegreya: Alegreya, serif;--wp--preset--font-family--arvo: Arvo, serif;--wp--preset--font-family--bodoni-moda: 'Bodoni Moda', serif;--wp--preset--font-family--bricolage-grotesque: 'Bricolage Grotesque', sans-serif;--wp--preset--font-family--cabin: Cabin, sans-serif;--wp--preset--font-family--chivo: Chivo, sans-serif;--wp--preset--font-family--commissioner: Commissioner, sans-serif;--wp--preset--font-family--cormorant: Cormorant, serif;--wp--preset--font-family--courier-prime: 'Courier Prime', monospace;--wp--preset--font-family--crimson-pro: 'Crimson Pro', serif;--wp--preset--font-family--dm-mono: 'DM Mono', monospace;--wp--preset--font-family--dm-sans: 'DM Sans', sans-serif;--wp--preset--font-family--dm-serif-display: 'DM Serif Display', serif;--wp--preset--font-family--domine: Domine, serif;--wp--preset--font-family--eb-garamond: 'EB Garamond', serif;--wp--preset--font-family--epilogue: Epilogue, sans-serif;--wp--preset--font-family--fahkwang: Fahkwang, sans-serif;--wp--preset--font-family--figtree: Figtree, sans-serif;--wp--preset--font-family--fira-sans: 'Fira Sans', sans-serif;--wp--preset--font-family--fjalla-one: 'Fjalla One', sans-serif;--wp--preset--font-family--fraunces: Fraunces, serif;--wp--preset--font-family--gabarito: Gabarito, system-ui;--wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono', monospace;--wp--preset--font-family--ibm-plex-sans: 'IBM Plex Sans', sans-serif;--wp--preset--font-family--ibarra-real-nova: 'Ibarra Real Nova', serif;--wp--preset--font-family--instrument-serif: 'Instrument Serif', serif;--wp--preset--font-family--inter: Inter, sans-serif;--wp--preset--font-family--josefin-sans: 'Josefin Sans', sans-serif;--wp--preset--font-family--jost: Jost, sans-serif;--wp--preset--font-family--libre-baskerville: 'Libre Baskerville', serif;--wp--preset--font-family--libre-franklin: 'Libre Franklin', sans-serif;--wp--preset--font-family--literata: Literata, serif;--wp--preset--font-family--lora: Lora, serif;--wp--preset--font-family--merriweather: Merriweather, serif;--wp--preset--font-family--montserrat: Montserrat, sans-serif;--wp--preset--font-family--newsreader: Newsreader, serif;--wp--preset--font-family--noto-sans-mono: 'Noto Sans Mono', sans-serif;--wp--preset--font-family--nunito: Nunito, sans-serif;--wp--preset--font-family--open-sans: 'Open Sans', sans-serif;--wp--preset--font-family--overpass: Overpass, sans-serif;--wp--preset--font-family--pt-serif: 'PT Serif', serif;--wp--preset--font-family--petrona: Petrona, serif;--wp--preset--font-family--piazzolla: Piazzolla, serif;--wp--preset--font-family--playfair-display: 'Playfair Display', serif;--wp--preset--font-family--plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;--wp--preset--font-family--poppins: Poppins, sans-serif;--wp--preset--font-family--raleway: Raleway, sans-serif;--wp--preset--font-family--roboto: Roboto, sans-serif;--wp--preset--font-family--roboto-slab: 'Roboto Slab', serif;--wp--preset--font-family--rubik: Rubik, sans-serif;--wp--preset--font-family--rufina: Rufina, serif;--wp--preset--font-family--sora: Sora, sans-serif;--wp--preset--font-family--source-sans-3: 'Source Sans 3', sans-serif;--wp--preset--font-family--source-serif-4: 'Source Serif 4', serif;--wp--preset--font-family--space-mono: 'Space Mono', monospace;--wp--preset--font-family--syne: Syne, sans-serif;--wp--preset--font-family--texturina: Texturina, serif;--wp--preset--font-family--urbanist: Urbanist, sans-serif;--wp--preset--font-family--work-sans: 'Work Sans', sans-serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-albert-sans-font-family{font-family: var(--wp--preset--font-family--albert-sans) !important;}.has-alegreya-font-family{font-family: var(--wp--preset--font-family--alegreya) !important;}.has-arvo-font-family{font-family: var(--wp--preset--font-family--arvo) !important;}.has-bodoni-moda-font-family{font-family: var(--wp--preset--font-family--bodoni-moda) !important;}.has-bricolage-grotesque-font-family{font-family: var(--wp--preset--font-family--bricolage-grotesque) !important;}.has-cabin-font-family{font-family: var(--wp--preset--font-family--cabin) !important;}.has-chivo-font-family{font-family: var(--wp--preset--font-family--chivo) !important;}.has-commissioner-font-family{font-family: var(--wp--preset--font-family--commissioner) !important;}.has-cormorant-font-family{font-family: var(--wp--preset--font-family--cormorant) !important;}.has-courier-prime-font-family{font-family: var(--wp--preset--font-family--courier-prime) !important;}.has-crimson-pro-font-family{font-family: var(--wp--preset--font-family--crimson-pro) !important;}.has-dm-mono-font-family{font-family: var(--wp--preset--font-family--dm-mono) !important;}.has-dm-sans-font-family{font-family: var(--wp--preset--font-family--dm-sans) !important;}.has-dm-serif-display-font-family{font-family: var(--wp--preset--font-family--dm-serif-display) !important;}.has-domine-font-family{font-family: var(--wp--preset--font-family--domine) !important;}.has-eb-garamond-font-family{font-family: var(--wp--preset--font-family--eb-garamond) !important;}.has-epilogue-font-family{font-family: var(--wp--preset--font-family--epilogue) !important;}.has-fahkwang-font-family{font-family: var(--wp--preset--font-family--fahkwang) !important;}.has-figtree-font-family{font-family: var(--wp--preset--font-family--figtree) !important;}.has-fira-sans-font-family{font-family: var(--wp--preset--font-family--fira-sans) !important;}.has-fjalla-one-font-family{font-family: var(--wp--preset--font-family--fjalla-one) !important;}.has-fraunces-font-family{font-family: var(--wp--preset--font-family--fraunces) !important;}.has-gabarito-font-family{font-family: var(--wp--preset--font-family--gabarito) !important;}.has-ibm-plex-mono-font-family{font-family: var(--wp--preset--font-family--ibm-plex-mono) !important;}.has-ibm-plex-sans-font-family{font-family: var(--wp--preset--font-family--ibm-plex-sans) !important;}.has-ibarra-real-nova-font-family{font-family: var(--wp--preset--font-family--ibarra-real-nova) !important;}.has-instrument-serif-font-family{font-family: var(--wp--preset--font-family--instrument-serif) !important;}.has-inter-font-family{font-family: var(--wp--preset--font-family--inter) !important;}.has-josefin-sans-font-family{font-family: var(--wp--preset--font-family--josefin-sans) !important;}.has-jost-font-family{font-family: var(--wp--preset--font-family--jost) !important;}.has-libre-baskerville-font-family{font-family: var(--wp--preset--font-family--libre-baskerville) !important;}.has-libre-franklin-font-family{font-family: var(--wp--preset--font-family--libre-franklin) !important;}.has-literata-font-family{font-family: var(--wp--preset--font-family--literata) !important;}.has-lora-font-family{font-family: var(--wp--preset--font-family--lora) !important;}.has-merriweather-font-family{font-family: var(--wp--preset--font-family--merriweather) !important;}.has-montserrat-font-family{font-family: var(--wp--preset--font-family--montserrat) !important;}.has-newsreader-font-family{font-family: var(--wp--preset--font-family--newsreader) !important;}.has-noto-sans-mono-font-family{font-family: var(--wp--preset--font-family--noto-sans-mono) !important;}.has-nunito-font-family{font-family: var(--wp--preset--font-family--nunito) !important;}.has-open-sans-font-family{font-family: var(--wp--preset--font-family--open-sans) !important;}.has-overpass-font-family{font-family: var(--wp--preset--font-family--overpass) !important;}.has-pt-serif-font-family{font-family: var(--wp--preset--font-family--pt-serif) !important;}.has-petrona-font-family{font-family: var(--wp--preset--font-family--petrona) !important;}.has-piazzolla-font-family{font-family: var(--wp--preset--font-family--piazzolla) !important;}.has-playfair-display-font-family{font-family: var(--wp--preset--font-family--playfair-display) !important;}.has-plus-jakarta-sans-font-family{font-family: var(--wp--preset--font-family--plus-jakarta-sans) !important;}.has-poppins-font-family{font-family: var(--wp--preset--font-family--poppins) !important;}.has-raleway-font-family{font-family: var(--wp--preset--font-family--raleway) !important;}.has-roboto-font-family{font-family: var(--wp--preset--font-family--roboto) !important;}.has-roboto-slab-font-family{font-family: var(--wp--preset--font-family--roboto-slab) !important;}.has-rubik-font-family{font-family: var(--wp--preset--font-family--rubik) !important;}.has-rufina-font-family{font-family: var(--wp--preset--font-family--rufina) !important;}.has-sora-font-family{font-family: var(--wp--preset--font-family--sora) !important;}.has-source-sans-3-font-family{font-family: var(--wp--preset--font-family--source-sans-3) !important;}.has-source-serif-4-font-family{font-family: var(--wp--preset--font-family--source-serif-4) !important;}.has-space-mono-font-family{font-family: var(--wp--preset--font-family--space-mono) !important;}.has-syne-font-family{font-family: var(--wp--preset--font-family--syne) !important;}.has-texturina-font-family{font-family: var(--wp--preset--font-family--texturina) !important;}.has-urbanist-font-family{font-family: var(--wp--preset--font-family--urbanist) !important;}.has-work-sans-font-family{font-family: var(--wp--preset--font-family--work-sans) !important;}
+    .wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+    :where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+    :where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+    .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+    </style>
+    <script type="text/javascript" src="https://golazoz.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1&#039; defer " id="jquery-core-js"></script>
+    <script type='text/javascript' data-type="lazy" data-src="https://golazoz.com/wp-includes/js/jquery/jquery-migrate.min.js?m=1686289764"></script>
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://golazoz.com/xmlrpc.php?rsd" />
+
+    <link rel='shortlink' href='https://wp.me/Pe6v5l-1LC' />
+    <link rel="alternate" type="application/json+oembed" href="https://golazoz.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgolazoz.com%2Fchat%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="https://golazoz.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgolazoz.com%2Fchat%2F&#038;format=xml" />
+	<style>img#wpstats{display:none}</style>
+	<script>
+    //Function checks if a given script is already loaded
+    function isScriptLoaded(src) {    
+    return document.querySelector('script[src="' + src + '"]') ? true : false;
+}
+    //When a reply link is clicked, check if reply-script is loaded. If not, load it and emulate the click
+    var repLinks = document.getElementsByClassName("comment-reply-link");
+    for (var i = 0; i < repLinks.length; i++) {    
+    repLinks[i].onclick = function() {
+        if (!(isScriptLoaded("/wp-includes/js/comment-reply.min.js"))) {
+            var script = document.createElement('script');
+            script.src = "/wp-includes/js/comment-reply.min.js";
+            script.onload = emRepClick(event.target.getAttribute('data-commentid'));
+            document.head.appendChild(script);
+        }
+    }
+};
+    //Function waits 50 ms before it emulates a click on the relevant reply link now that the reply script is loaded
+    function emRepClick(comId) {    
+    sleep(50).then(() => {
+        document.querySelectorAll('[data-commentid="' + comId + '"]')[0].dispatchEvent(new Event('click'));
+    });
+}
+    //Function does nothing, for a given amount of time
+    function sleep(time) {
+        return new Promise((resolve) => setTimeout(resolve, time));
+    }
+    </script>
+    <meta name="redi-version" content="1.2.2" /><link rel="icon" href="https://i0.wp.com/golazoz.com/wp-content/uploads/2023/04/cropped-favicon.png?fit=32%2C32&#038;ssl=1" sizes="32x32" />
+    <link rel="icon" href="https://i0.wp.com/golazoz.com/wp-content/uploads/2023/04/cropped-favicon.png?fit=192%2C192&#038;ssl=1" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://i0.wp.com/golazoz.com/wp-content/uploads/2023/04/cropped-favicon.png?fit=180%2C180&#038;ssl=1" />
+    <meta name="msapplication-TileImage" content="https://i0.wp.com/golazoz.com/wp-content/uploads/2023/04/cropped-favicon.png?fit=270%2C270&#038;ssl=1" />
+	<!-- Jetpack Google Analytics -->
+	<script async src='https://www.googletagmanager.com/gtag/js?id=G-DNR4W3EJPQ'></script>
+	<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push( arguments ); }
+			gtag( 'js', new Date() );
+			gtag( 'config', "G-DNR4W3EJPQ" );
+	</script>
+	<!-- End Jetpack Google Analytics -->	
+</head>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9061791920416964"
+     crossorigin="anonymous"></script>
+
+<body class="page-template page-template-page-CHAT page-template-page-CHAT-php page page-id-6796">
+    
+
+    <div class="gz-drawer clearfix">
+        <div id="search-2" class="gz-widget clearfix widget_search"><form method="get" class="searchform" action="https://golazoz.com/">
+    <input type="text" value placeholder="Buscar..." name="s" />
+    <button type="submit" id="searchsubmit">
+	    <span>Ir</span>
+    </button>
+</form></div><div id="nav_menu-3" class="gz-widget clearfix widget_nav_menu"><div class="menu-menu-principal-cajon-container"><ul id="menu-menu-principal-cajon" class="menu"><li id="menu-item-10483" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10483"><a href="/videos/"><i class="fa fa-play-circle"></i> VIDEOS</a></li>
+
+
+</ul></div></div>    </div>
+
+    <div class="push-overlay"></div>
+        <div id="gz-search-overlay">
+        <div class="overlay-table">
+            <div class="overlay-cell">
+                <div class="gz-container clearfix">
+                    <div class="overlay-search">
+                        <form method="get" class="searchform" action="https://golazoz.com/">
+    <input type="text" value placeholder="Buscar..." name="s" />
+    <button type="submit" id="searchsubmit">
+	    <span>Ir</span>
+    </button>
+</form>                    </div>
+                </div>
             </div>
         </div>
-        <nav class='grey darken-4 fixed new-black-text text-lighten-3 z-depth-1' data-turbolinks-permanent='true' id='main-nav'>
-            <div class="row center-xs relative large-padding">
-                <div class=' main-container col-xs-12 col-sm-11 col-md-10' stlye=''>
-                    <div class='box'>
-                        <button aria-label='toggle menu' class='tcon tcon-menu--xbutterfly absolute' id='open_user_data' style='left:1em;top:1.7em;' type='button'>
-                            <span aria-hidden='true' class='tcon-menu__lines'></span>
-                            <span class='tcon-visuallyhidden'></span>
-                        </button>
-                        <ul class='no-list row middle-xs'>
-                            <div class='col-xs-2 hidden-bg'></div>
-                            <div class='no-padding text-left col-xs-5 col-sm-2 col-md-4'>
-                                <div class='box'>
-                                    <a href="index.html"><img height="45" src="img/favicon.png" alt="Logotipo" />
-                                    </a>
-                                </div>
-                            </div>
-                            <div class=' no-padding text-right col-xs-5                                                                                                                                                                                                              col-sm-9 col-md-8'>
-                                <div class='box'>
-                                    <ul class='horizontal_nav new-black-text text-lighten-3 relative text-right' style='min-height:1em;'>
-                                        <a class="hidden-xs" href="index.html">
-                                            <li class='inline-block'>
-                                                <i class='icon-home'></i>
-                                                <p class='no-margin be-small'>Inicio</p>
-                                            </li>
-                                        </a>
-                                        <a class="hidden-xs" href="cursos.html">
-                                            <li class='inline-block'>
-                                                <i class='icon-play'></i>
-                                                <p class='no-margin be-small'>Cursos</p>
-                                            </li>
-                                        </a>
-                                        <a class="hidden-xs" href="blog.html">
-                                            <li class='inline-block'>
-                                                <i class="icon-book"></i>
-                                                <p class='no-margin be-small'>Blog</p>
-                                            </li>
-                                        </a> 
-                                        <a class="hidden-xs" href="talleres.html">
-                                            <li class='inline-block'>
-                                                <i class="icon-file-text2"></i>
-                                                <p class='no-margin be-small'>Talleres</p>
-                                            </li>
-                                        </a> 
-                                        <a class="hidden-xs" href="https://www.paypal.com/donate?hosted_button_id=H2ADNQ4D6799W" target="_blank">
-                                            <li class='inline-block'>
-                                                <i class="icon-credit-card"></i>
-                                                <p class='no-margin be-small'>Donar</p>
-                                            </li>
-                                        </a> 
-                                        
-                                    </ul>
-                                </div>
-                            </div>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <section id="body">
-            <div class="portadaindex">
-                <header class='relative verano-header'>
-                    <div class='absolute text-center white-text bold full-width' style='top:1em;'>
-                        <p class="portada__titulo">Usoftec</p>
-                        <p class="portada__descripsion">Escuela online de formación profesional en manejo de software</p>
-                        <br>
-                        <a class="botonschooltec02" href="cursos.html">Buscar Cursos</a>
-                        <br>
-                        <br>
-                        <br>
-                        <a class="botonschooltec01" target="blank" href="https://www.paypal.com/donate?hosted_button_id=H2ADNQ4D6799W">Donar</a>
+    </div>
+    
+    <!-- Main Content div -->
+   
+        
+
+        
+
+<div class="gz-container">
+
+<div class="gz-container">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9061791920416964"
+     crossorigin="anonymous"></script>
+<!-- GOLAZOZ.com | BANNER -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9061791920416964"
+     data-ad-slot="7195559501"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+<div id="pxnel">
+        <iframe height=500 src="https://golazoz.com/mlw?ext=yes" style="width:100%;border:none; max-height: 500px" 
+            frameborder=0 scrolling="yes" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                         allowfullscreen data-no-lazy="1"></iframe>
                         
-                </header>
-            </div>
-            <section class='top-30'>
-                <div class="row center-xs text-left ">
-                    <div class=' col-xs-12 col-sm-11 col-md-10 col-lg-9'>
-                        <div class='box'>
-                            <h3 class='be-big slim no-margin'>   
-                                <h4 class="index001">Descubre nuestras categorías</h4>
-                            </h3>
-                            <div class='row top-xs center-xs text-left'>
-                                <div class='col-courses text-left courses-index black-text' style='max-width:930px;flex-basis:930px;'>
-                                    <div class='box'>
-                                        <div id='courses'>
-                                            <div class='top-30'>
-                                                <div class='row center-xs'>
-                                                    <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
-                                                        <div class='box'>
-                                                            <a href="programacion.html">
-                                                                <header class='large-padding text-center relative' style='background-color:#5f9bfa'>
-                                                                    <div class='absolute' style='top:15px;right:15px;z-index:10;'>
-                                                                        <img height="20" src="img/ingenieria.png" alt=" " />
-                                                                    </div>
-                                                                    <img style="height:100px;z-index:10" class="relative avatar" src="img/ingenieria.png" alt="" />
-                                                                </header>
-                                                            </a>
-                                                        </div>
-                                                        <div class='white large-padding body'>
-                                                            <h2 class='black-text no-margin normal-line-height'>
-                                                                <a href="programacion.html">Cursos de Ingeniería</a>
-                                                            </h2>
-                                                            <div class='row bottom-xs'>
-                                                                <div class=' col-xs-6'>
-                                                                    <div class='box'>
-                                                                        <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
-                                                                        <span class='middle-block'>01 Cursos</span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class='text-right col-xs-6' style='font-size:0.8em;'>
-                                                                    <div class='box'>
-                                                                        <div id='add-course-75'>
-                                                                            <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="ingenieria.html">Ver</a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </article>
-                                                    <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
-                                                        <div class='box'>
-                                                            <a href="ofimatica.html">
-                                                                <header class='large-padding text-center relative' style='background-color: #FFCC80'>
-                                                                    <div class='absolute' style='top:15px;right:15px;z-index:10;'>
-                                                                        <img height="20" src="img/ofimatica.png" alt=" " />
-                                                                    </div>
-                                                                    <img style="height:100px;z-index:10" class="relative avatar" src="img/ofimatica.png" alt="Browser" />
-                                                                </header>
-                                                            </a>
-                                                        </div>
-                                                        <div class='white large-padding body'>
-                                                            <h2 class='black-text no-margin normal-line-height'>
-                                                                <a href="ofimatica.html">Cursos de Ofimática</a>
-                                                            </h2>
-                                                            <div class='row bottom-xs'>
-                                                                <div class=' col-xs-6'>
-                                                                    <div class='box'>
-                                                                        <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
-                                                                        <span class='middle-block'>02 Cursos</span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class='text-right col-xs-6' style='font-size:0.8em;'>
-                                                                    <div class='box'>
-                                                                        <div id='add-course-75'>
-                                                                            <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="ofimatica.html">Ver</a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </article>
-                                                    <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
-                                                        <div class='box'>
-                                                            <a href="software.html">
-                                                                <header class='large-padding text-center relative' style='background-color: #9ff68d'>
-                                                                    <div class='absolute' style='top:15px;right:15px;z-index:10;'>
-                                                                        <img height="20" src="img/dgrafico.png" alt=" " />
-                                                                    </div>
-                                                                    <img style="height:100px;z-index:10" class="relative avatar" src="img/dgrafico.png" alt="Browser" />
-                                                                </header>
-                                                            </a>
-                                                        </div>
-                                                        <div class='white large-padding body'>
-                                                            <h2 class='black-text no-margin normal-line-height'>
-                                                                <a href="software.html">Cursos de Diseño gráfico</a>
-                                                            </h2>
-                                                            <div class='row bottom-xs'>
-                                                                <div class=' col-xs-6'>
-                                                                    <div class='box'>
-                                                                        <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
-                                                                        <span class='middle-block'>01 Cursos</span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class='text-right col-xs-6' style='font-size:0.8em;'>
-                                                                    <div class='box'>
-                                                                        <div id='add-course-75'>
-                                                                            <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="software.html">Ver</a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </article>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <br>
-                <center>
-                    <a class="botonschooltec01" href="cursos.html">
-                        <color style="color: #ffffff; font-weight: bold;">¡Vamos, aprendamos hoy!</color>
-                    </a>
-                </center>
-                <br>
-            </section>
-            <div class='article-container'>
-                <article class='paragraph'>
-                    <center><span class="index001">La nueva forma de aprender</span>
-                    <p style="font-family: bitter; color: #E9E9E9; font-size: 20px;">Con Usoftec aprendes estés donde estés las 24 horas del día y los 7 días de la semana disponible en cualquier momento. Solo necesitas una PC o Smartphone con acceso a Internet y ganas de aprender.</p>
-                    </center>
-                    <br>
-                    <p><img src="img/equipo.png" alt="" style="display:block;margin:auto;width:550px;height:100%;" /></p>
-                    <br>
-                    <br>
-                    <center>
-                        <a class="botonschooltec01" target="_blank" href="https://youtu.be/c8RSOAPis4A">
-                            <color style="color: #ffffff; font-weight: bold;">Ve como lo hacemos</color>
-                        </a>
-                    </center>
-                    <br>
-                </article>
-            </div>
-            <div class="row center-xs text-left ">
-                <div class=' col-xs-12 col-sm-11 col-md-10 col-lg-9'>
-                    <div class='box'>
-                        <h3 class='be-big slim no-margin'>   
-                            <h4 class="index001">Cursos destacados</h4>
-                        </h3>
-                        <div class='row top-xs center-xs text-left'>
-                            <div class='col-courses text-left courses-index black-text' style='max-width:930px;flex-basis:930px;'>
-                                <div class='box'>
-                                    <div id='courses'>
-                                        <div class='top-30'>
-                                            <div class='row center-xs'>
-                                                <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
-                                                    <div class='box' style="background:#1c313a;">
-                                                        <a href="">
-                                                            <img class="imagendecursos" src="img/postcursoexcel.png" alt="">
-                                                        </a>
-                                                    </div>
-                                                    <div class='white large-padding body'>
-                                                        <h2 class='black-text no-margin normal-line-height'>
-                                                            <a href="">Microsoft Excel básico para principiantes</a>
-                                                        </h2>
-                                                        <div class='row bottom-xs'>
-                                                            <div class=' col-xs-6'>
-                                                                <div class='box'>
-                                                                    <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
-                                                                    <span class='middle-block'>4hrs 17mins</span>
-                                                                </div>
-                                                            </div>
-                                                            <div class='text-right col-xs-6' style='font-size:0.8em;'>
-                                                                <div class='box'>
-                                                                    <div id='add-course-75'>
-                                                                        <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="">Proximo</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </article>
-                                                <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
-                                                    <div class='box'style="background: #1c313a;">
-                                                        <a href="">
-                                                            <img class="imagendecursos" src="img/postcursoautocad.png" alt="">
-                                                        </a>
-                                                    </div>
-                                                    <div class='white large-padding body'>
-                                                        <h2 class='black-text no-margin normal-line-height'>
-                                                            <a href="">Creacion de planos 2D con AutoCad</a>
-                                                        </h2>
-                                                        <div class='row bottom-xs'>
-                                                            <div class=' col-xs-6'>
-                                                                <div class='box'>
-                                                                    <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
-                                                                    <span class='middle-block'>8hrs 25mins</span>
-                                                                </div>
-                                                            </div>
-                                                            <div class='text-right col-xs-6' style='font-size:0.8em;'>
-                                                                <div class='box'>
-                                                                    <div id='add-course-75'>
-                                                                        <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="">Proximo</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </article>
-                                                <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
-                                                    <div class='box' style="background: #1c313a;">
-                                                        <a href="cursoword.html">
-                                                            <img class="imagendecursos" src="img/postcursoword.png" alt="">
-                                                        </a>
-                                                    </div>
-                                                    <div class='white large-padding body'>
-                                                        <h2 class='black-text no-margin normal-line-height'>
-                                                            <a href="cursoword.html">Redaccion de documentos con Microsoft Word</a>
-                                                        </h2>
-                                                        <div class='row bottom-xs'>
-                                                            <div class=' col-xs-6'>
-                                                                <div class='box'>
-                                                                    <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
-                                                                    <span class='middle-block'>930 Inscritos</span>
-                                                                </div>
-                                                            </div>
-                                                            <div class='text-right col-xs-6' style='font-size:0.8em;'>
-                                                                <div class='box'>
-                                                                    <div id='add-course-75'>
-                                                                        <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="cursoword.html">Gratuito 🛒</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </article>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="top-30">
-                <footer class='footer grey darken-4 big-padding white-text'>
-                    <div class="row center-xs text-left ">
-                        <div class=' col-xs-12 col-sm-11 col-md-10 col-lg-9'>
-                            <div class='box'>
-                                <div class='row center-xs text-left'>
-                                    <div class='last-xs first-md col-xs-6 col-sm-12 col-md-3 col-lg-2'>
-                                        <div class='box'><img width="150" src="img/favicon.png" alt="" /></div>
-                                    </div>
-                                    <div class=' col-xs-6 col-sm-3 col-md-3 col-lg-2'>
-                                        <div class='box'>
-                                            <p class='uppercase green-flat-text'>Contenido</p>
-                                            <ul>
-                                                <li><a href="cursos.html">Cursos</a></li>
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="talleres.html">Talleres</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class=' col-xs-6 col-sm-3 col-md-3 col-lg-2'>
-                                        <div class='box'>
-                                            <p class='uppercase green-flat-text'>Cursos</p>
-                                            <ul>
-                                                <li><a href="ingenieria.html">Ingeniería</a></li>
-                                                <li><a href="ofimatica.html">Ofimática</a></li>
-                                                <li><a href="diseñografico.html">Diseño</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class=' col-xs-6 col-sm-3 col-md-3 col-lg-2'>
-                                        <div class='box'>
-                                            <p class='uppercase green-flat-text'>Nosotros</p>
-                                            <ul>
-                                                <li><a href="equipo.html">Equipo</a></li>
-                                                <li><a href="contacto.html">Contacto</a></li>
-                                                <li><a href="info.html">Información</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class='social col-xs-6 col-sm-3 col-md-6 col-lg-2'>
-                                        <div class='box'>
-                                            <p class='uppercase green-flat-text'>Redes sociales</p>
-                                            <a href="https://twitter.com/Usoftec" target="_blank">
-                                                <img height="25" src="img/twitter.png" alt="twitter" />
-                                            </a>
-                                            <a href="https://www.facebook.com/Usoftec" target="_blank">
-                                                <img height="25" src="img/facebook.png" alt="Facebook" />
-                                            </a>
-                                            <a href="https://instagram.com/Usoftec" target="_blank">
-                                                <img height="25" src="img/instagram.png" alt="twitter" />
-                                            </a>
-                                            <a href="https://www.youtube.com/channel/UCuwZ4xgQ-hYZ0r_Mh4vph-w" target="_blank">
-                                                <img height="25" src="img/youtube.png" alt="Youtube" />
-                                            </a>
-                                            <a href="" target="_blank">
-                                                <img height="25" src="img/whatsapp.png" alt="Youtube" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-            </div>
-        </section>
-    </body>
+    </div>
+<div class="gz-container">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9061791920416964"
+     crossorigin="anonymous"></script>
+<!-- GOLAZOZ.com | BANNER -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9061791920416964"
+     data-ad-slot="7195559501"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<script >
+window.addEventListener("DOMContentLoaded", (event) => {
+    window.addEventListener(
+      "message",
+      (event) => {
+
+        if (event.data.click && "yes" == event.data.inst) {
+           window.location.hash = Math.random();
+           console.log("Inyectar HASH");
+        }
+
+        if (event.data.url && "yes" == event.data.inst) {
+           window.open(event.data.url, '_blank');
+           console.log("Enlace externo");
+        }
+
+        if (event.data.appHeight && "yes" == event.data.inst) {
+          let container = document.querySelector("#pxnel iframe");
+          container &&
+            (container.style.height =
+              parseInt(event.data.appHeight) + "px");
+           console.log("Cambiar alto");
+              
+        }
+      },
+      !1
+    );
+  });
+</script>
+
+</div>
+
+<div id="content" class="gz-normal-page clearfix" style="transform: none; height: auto !important;">
+	<div class="gz-container clearfix" style="transform: none; height: auto !important;">
+				<!--Post Loop -->
+					<div id="post-6796" class="post-6796 page type-page status-publish hentry" style="transform: none; height: auto !important;">
+							<div class="clearfix" style="transform: none; height: auto !important;">
+					<div id="gz-post-container" style="height: auto !important;">
+						<article class="clearfix" style="height: auto !important;">
+							<div class="post-header clearfix">
+								
+							<div class="post-content clearfix" style="height: auto !important;">
+								<div class="thecontent" style="height: auto !important;">
+									
+
+
+
+
+
+
+<div class="wp-block-image">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p></p>
+								</div>
+							</div>
+						</article>
+						<!-- Comments Warpper -->
+					</div>
+						<aside id="gz-sidebar" class="sticky-aside gz-right" style="position: relative; overflow: visible; box-sizing: border-box; min-height: 1px;">
+			<div class="theiaStickySidebar" style="padding-top: 0px; padding-bottom: 1px; position: static;"></div></aside>
+				</div>
+			</div>
+			</div>
+</div>
+          <!-- Close Main Content div -->
+  </div>
+  
+
+  <!-- Footer Ad Area -->
+  
+  <!-- Footer -->
+  <footer class="clearfix">
+
+      <div id="gz-footer-sidebar" class="clearfix">
+          
+              
+                            <div class="about-us">
+                  <div class="more-info">
+                      <a href='https://golazoz.com/'
+                          title='Golazoz' rel='home'><svg
+                              width="231.99999999999997" height="37" xmlns="http://www.w3.org/2000/svg">
+                              <g>
+                                  <g id="svg_2" transform="translate(0, 500) scale(0.1, -0.1)" fill="#ffffff">
+                                      <path id="svg_3"
+                                          d="m133.75922,4992.89174c-33.1623,-8.92831 -70.40612,-41.83552 -96.68087,-85.45671c-22.95852,-38.51929 -32.65211,-74.23254 -30.61136,-113.77221c1.53057,-29.59098 10.71398,-49.99855 30.10117,-68.11027c26.78494,-24.99928 56.37592,-32.65211 130.09827,-33.1623l49.74346,-0.25509l43.62118,94.38502l43.62118,94.38502l-53.82497,0.76528c-29.59098,0.25509 -56.12082,0 -59.18196,-0.51019c-6.37737,-1.78566 -62.24309,-67.85518 -62.24309,-73.97745c0,-0.76528 11.98945,-1.53057 26.52984,-1.53057l26.78494,0l-7.90793,-17.85663l-7.90793,-17.85663l-17.09134,0c-21.93814,0 -31.37664,5.86718 -41.83552,26.27475c-9.6936,18.877 -11.22416,37.24382 -5.10189,57.1412c5.86718,18.877 26.01965,48.97817 38.77439,57.65139l9.6936,6.88756l66.32461,0l66.06951,0l21.93814,22.44833c20.15248,20.40757 48.21289,52.80459 48.21289,55.61063c0,0.51019 -46.17213,1.02038 -102.54805,0.76528c-81.63029,0 -105.60918,-0.76528 -116.57825,-3.82642z" />
+                                      <path id="svg_4"
+                                          d="m496.50381,4994.42231c-5.86718,-1.27547 -13.77511,-3.82642 -17.60153,-5.86718l-6.88756,-3.57133l20.15248,-7.65284c10.96907,-4.33661 22.70342,-8.41812 25.76456,-9.4385c5.86718,-1.78566 60.71253,14.54039 63.26347,18.877c3.82642,6.12227 -64.02876,12.24454 -84.69142,7.65284z" />
+                                      <path id="svg_5"
+                                          d="m766.39394,4981.15739c-3.82642,-8.92831 -34.18268,-76.52839 -67.60008,-150.25075c-33.1623,-73.72235 -60.20234,-135.45526 -60.20234,-137.24092c0,-2.04076 27.55022,-2.80604 103.82352,-2.80604l103.82352,0l14.03021,14.79549c7.65284,7.90793 22.95852,25.50946 33.92759,38.77439l20.15248,24.23399l-75.25292,0.76528c-41.58043,0.25509 -75.50802,1.02038 -75.50802,1.27547c0,0.51019 22.44833,50.76383 49.74346,111.47636c27.29513,60.96762 49.74346,111.73146 49.74346,112.75183c0,1.02038 -20.15248,2.04076 -44.64156,2.04076l-44.89666,0l-7.14265,-15.81587z" />
+                                      <path id="svg_6"
+                                          d="m1145.97478,4988.30004c-11.22416,-8.41812 -234.94217,-286.47129 -236.47274,-293.61394c-0.76528,-3.31623 13.00983,-3.82642 99.74201,-3.82642l100.50729,0l15.05058,16.07096c8.41812,8.67322 20.40757,22.70342 26.78494,30.86645l11.22416,15.30568l1.27547,-30.61136l1.27547,-30.35626l41.58043,-0.76528c31.88683,-0.51019 41.58043,0 42.60081,2.55095c2.29585,6.63246 5.61208,248.97238 3.82642,267.59429c-1.27547,10.71398 -3.82642,22.95852 -6.12227,27.55022l-4.33661,7.90793l-42.8559,0l-42.8559,0l-11.22416,-8.67322zm21.93814,-161.47491l-1.78566,-56.88611l-48.46798,0c-29.59098,0 -47.95779,1.02038 -47.4476,2.55095c0.51019,1.27547 22.70342,30.86645 49.23327,65.55932c56.63101,73.97745 51.27402,75.25292 48.46798,-11.22416z" />
+                                      <path id="svg_7"
+                                          d="m1432.95626,4978.60644c-21.68305,-22.95852 -46.93742,-53.82497 -46.93742,-57.65139c0,-2.04076 18.36681,-3.06114 61.988,-3.57133l61.988,-0.76528l-112.75183,-110.96617c-62.24309,-60.96762 -113.00693,-111.73146 -113.26202,-112.75183c0,-1.27547 53.56988,-2.04076 119.1292,-2.04076l119.38429,0l20.40757,21.17286c18.36681,18.62191 44.64156,52.03931 44.64156,56.37592c0,0.76528 -28.31551,1.53057 -63.00838,1.53057l-63.26347,0l114.79259,113.51712l114.79259,113.26202l-120.14958,0l-120.14958,0.25509l-17.60153,-18.36681z" />
+                                      <path id="svg_8"
+                                          d="m1781.41554,4994.42231c-17.85663,-3.82642 -50.50874,-21.42795 -71.17141,-39.02948c-31.63174,-26.27475 -62.24309,-71.17141 -75.25292,-109.94579c-11.98945,-35.71325 -15.30568,-79.58953 -7.65284,-102.29295c6.12227,-17.34644 23.9789,-34.94797 42.8559,-41.83552c32.39702,-11.98945 115.30278,-13.52002 147.6998,-2.55095c67.85518,22.44833 126.78204,92.85445 144.89376,173.20927c11.73435,52.2944 4.8468,88.00765 -20.40757,105.60918c-20.40757,14.2853 -36.98872,17.34644 -95.91559,18.36681c-29.33588,0.51019 -58.67177,-0.25509 -65.04914,-1.53057zm76.2733,-80.35481c10.71398,-5.35699 14.03021,-15.81587 12.24454,-41.07024c-1.02038,-16.32606 -2.80604,-24.99928 -8.41812,-36.22344c-8.67322,-17.85663 -37.49891,-47.4476 -57.1412,-58.67177c-12.49964,-7.39774 -16.07096,-8.16303 -35.20306,-8.16303c-13.26492,0 -23.7238,1.27547 -28.06041,3.57133c-11.22416,5.86718 -19.1321,22.70342 -20.40757,43.87628c-1.02038,17.34644 -0.51019,20.15248 7.90793,37.75401c6.63246,13.77511 13.77511,23.7238 25.76456,35.45816c24.23399,23.9789 32.14193,27.29513 67.34499,27.29513c20.15248,0 30.86645,-1.02038 35.96835,-3.82642z" />
+                                      <path id="svg_9"
+                                          d="m2052.83625,4978.60644c-21.68305,-22.95852 -46.93742,-53.82497 -46.93742,-57.65139c0,-2.04076 18.36681,-3.06114 61.988,-3.57133l61.988,-0.76528l-112.75183,-110.96617c-62.24309,-60.96762 -113.00693,-111.73146 -113.26202,-112.75183c0,-1.27547 53.56988,-2.04076 119.1292,-2.04076l119.38429,0l20.40757,21.17286c18.36681,18.62191 44.64156,52.03931 44.64156,56.37592c0,0.76528 -28.31551,1.53057 -63.00838,1.53057l-63.26347,0l114.79259,113.51712l114.79259,113.26202l-120.14958,0l-120.14958,0.25509l-17.60153,-18.36681zm-24.48909,-224.48329c-3.06114,-4.8468 -6.63246,-6.12227 -18.11172,-6.63246c-15.30568,-0.76528 -22.19323,-6.12227 -22.19323,-17.09134c0,-7.90793 4.8468,-11.47926 16.32606,-11.47926l9.94869,0l-5.86718,-6.37737c-8.41812,-8.92831 -27.04003,-7.90793 -33.67249,2.29585c-3.57133,5.35699 -2.04076,23.21361 2.55095,30.35626c8.41812,12.24454 13.00983,14.2853 34.69287,14.54039l19.89738,0l-3.57133,-5.61208zm51.78421,3.06114c11.22416,-6.12227 3.06114,-34.18268 -13.00983,-45.15175c-10.45888,-7.14265 -31.63174,-8.16303 -38.77439,-1.53057c-9.18341,8.16303 -3.31623,30.61136 11.22416,42.8559c6.12227,5.10189 10.45888,6.37737 21.42795,6.37737c7.90793,0 16.32606,-1.27547 19.1321,-2.55095zm43.111,-8.41812c0,-6.12227 0.76528,-11.73435 1.53057,-12.49964c0.76528,-0.76528 6.63246,4.08151 13.00983,10.96907c10.20379,10.96907 13.00983,12.49964 21.68305,12.49964c7.14265,0 9.94869,-1.02038 8.92831,-3.06114c-0.76528,-1.78566 -6.12227,-14.03021 -11.98945,-26.78494c-9.94869,-21.93814 -11.47926,-23.7238 -18.11172,-23.7238c-4.08151,0 -7.39774,0.51019 -7.39774,1.02038c0,0.51019 2.29585,6.63246 5.35699,13.52002l5.10189,12.24454l-13.52002,-13.26492c-7.65284,-7.39774 -14.54039,-13.52002 -15.56077,-13.52002c-1.02038,0 -1.78566,6.63246 -1.78566,14.79549l-0.25509,14.54039l-7.65284,-14.54039c-6.63246,-13.00983 -8.41812,-14.79549 -15.05058,-14.79549l-7.65284,0l6.63246,14.79549c3.57133,7.90793 8.92831,19.89738 11.73435,26.78494c4.8468,11.22416 5.86718,11.98945 15.05058,11.98945l9.94869,0l0,-10.96907zm-168.36247,-31.88683c0,-5.35699 -4.5917,-10.71398 -9.4385,-10.71398c-4.5917,0 -4.08151,6.37737 0.76528,11.22416c5.35699,5.35699 8.67322,5.10189 8.67322,-0.51019z" />
+                                      <path id="svg_10"
+                                          d="m2047.73436,4741.36842c-8.16303,-8.92831 -9.18341,-11.73435 -6.12227,-17.34644c3.82642,-7.39774 11.98945,-6.37737 20.66267,2.55095c10.20379,9.94869 9.4385,18.877 -1.53057,19.89738c-5.61208,0.51019 -9.4385,-1.02038 -13.00983,-5.10189z" />
+                                      <path id="svg_11"
+                                          d="m456.19885,4967.38227c-4.08151,-2.04076 -17.34644,-10.45888 -29.33588,-18.36681l-21.42795,-14.54039l-3.31623,-15.30568c-1.78566,-8.41812 -3.82642,-17.85663 -4.5917,-20.91776c-1.02038,-4.8468 0.51019,-6.12227 12.49964,-9.4385c19.89738,-5.86718 25.50946,-5.10189 43.111,5.10189c37.49891,21.93814 47.7027,29.84607 50.25365,39.28458c4.8468,17.09134 3.82642,18.62191 -15.81587,28.8257c-21.17286,10.71398 -20.91776,10.71398 -31.37664,5.35699z" />
+                                      <path id="svg_12"
+                                          d="m563.84879,4963.81095c-10.96907,-3.82642 -21.17286,-8.16303 -22.44833,-9.4385c-1.53057,-1.53057 -4.33661,-8.67322 -6.37737,-16.32606l-3.57133,-13.77511l9.4385,-8.16303c39.28458,-32.90721 45.15175,-36.73363 55.10044,-35.45816c17.09134,2.04076 20.40757,6.12227 27.04003,33.1623c4.8468,20.91776 5.35699,25.25437 2.55095,28.8257c-4.33661,4.8468 -38.2642,29.08079 -40.30495,28.5706c-0.76528,-0.25509 -10.45888,-3.57133 -21.42795,-7.39774z" />
+                                      <path id="svg_13"
+                                          d="m639.867,4918.6592c-2.29585,-10.96907 -5.10189,-23.46871 -6.37737,-27.80532c-2.29585,-9.18341 3.31623,-19.1321 20.91776,-37.49891l9.18341,-9.94869l3.31623,6.12227c2.04076,3.31623 3.31623,14.54039 3.57133,27.55022c0,18.877 -1.02038,23.7238 -7.39774,36.98872c-7.39774,15.56077 -13.52002,24.23399 -17.09134,24.23399c-1.02038,0 -3.82642,-8.92831 -6.12227,-19.64229z" />
+                                      <path id="svg_14"
+                                          d="m375.84404,4927.33241c-6.12227,-4.8468 -20.91776,-24.23399 -32.90721,-43.111c-10.20379,-15.81587 -15.05058,-26.78494 -20.66267,-46.17213l-2.29585,-6.88756l6.88756,4.8468c3.82642,2.80604 15.81587,13.52002 26.78494,23.7238l19.64229,18.62191l5.10189,21.68305c3.06114,11.98945 5.86718,23.7238 6.63246,26.27475c1.53057,5.10189 -3.31623,5.61208 -9.18341,1.02038z" />
+                                      <path id="svg_15"
+                                          d="m491.9121,4893.14973c-8.41812,-4.8468 -24.23399,-14.79549 -35.45816,-21.93814l-19.89738,-13.00983l1.53057,-10.20379c1.02038,-5.86718 2.29585,-16.83625 3.06114,-24.48909c0.76528,-7.65284 1.78566,-17.85663 2.55095,-22.19323l1.27547,-8.41812l39.53967,0l39.53967,0l4.33661,7.90793c2.29585,4.33661 8.67322,14.79549 13.77511,22.95852c5.35699,8.41812 11.98945,19.89738 15.05058,25.76456l5.61208,10.71398l-11.22416,10.20379c-13.52002,11.98945 -40.56005,32.14193 -42.8559,31.88683c-0.76528,0 -8.41812,-4.08151 -16.83625,-9.18341z" />
+                                      <path id="svg_16"
+                                          d="m360.53836,4845.95722c-10.20379,-8.67322 -19.1321,-17.85663 -20.15248,-20.66267c-2.04076,-5.61208 3.82642,-47.95779 6.88756,-50.50874c1.02038,-0.76528 11.47926,-3.57133 23.21361,-5.86718l21.42795,-4.5917l13.52002,13.77511l13.52002,13.52002l-4.5917,28.8257c-2.55095,15.81587 -5.10189,29.33588 -5.61208,29.84607c-1.78566,1.53057 -25.50946,11.47926 -27.80532,11.47926c-1.27547,0 -10.45888,-7.14265 -20.40757,-15.81587z" />
+                                      <path id="svg_17"
+                                          d="m600.32733,4857.69158c-13.52002,-3.57133 -14.54039,-4.5917 -26.52984,-23.46871c-6.88756,-10.71398 -16.58115,-25.76456 -21.42795,-33.1623c-8.41812,-12.49964 -8.67322,-14.03021 -6.12227,-22.95852c5.61208,-17.85663 4.8468,-17.60153 32.90721,-10.96907c41.07024,9.6936 39.79476,8.67322 52.80459,32.14193c6.37737,11.47926 11.73435,22.70342 11.73435,25.25437c0,7.39774 -21.42795,37.49891 -26.52984,36.98872c-1.53057,-0.25509 -9.18341,-2.04076 -16.83625,-3.82642z" />
+                                      <path id="svg_18"
+                                          d="m471.50453,4768.15335l-35.71325,-1.02038l-9.4385,-9.18341l-9.4385,-9.18341l6.37737,-14.2853c3.57133,-7.90793 7.65284,-17.34644 9.4385,-21.17286c3.06114,-7.14265 3.06114,-7.14265 29.84607,-7.14265l27.04003,0l15.30568,16.07096c22.44833,23.21361 22.19323,22.44833 17.60153,33.1623c-3.31623,7.90793 -11.73435,15.81587 -14.54039,14.03021c-0.51019,-0.25509 -16.83625,-1.02038 -36.47853,-1.27547z" />
+                                      <path id="svg_19"
+                                          d="m2208.69908,4749.02126c-6.88756,-8.92831 -22.70342,-27.80532 -35.45816,-42.09062l-22.95852,-26.27475l-1033.13332,-0.51019l-1033.38842,-0.76528l649.21588,-18.877c652.7872,-18.877 777.0183,-21.42795 1203.53655,-24.74418l231.88103,-1.78566l4.08151,6.12227c2.29585,3.31623 10.20379,22.70342 17.85663,43.111c7.65284,20.40757 18.11172,46.68232 23.21361,58.41667c5.10189,11.98945 8.67322,21.93814 8.16303,22.44833c-0.25509,0.51019 -6.37737,-6.37737 -13.00983,-15.05058z" />
+                                      <path id="svg_20"
+                                          d="m601.6028,4758.45976c-1.27547,-0.51019 -13.77511,-3.57133 -27.55022,-6.63246l-24.74418,-5.61208l-16.58115,-16.83625c-28.31551,-29.33588 -34.69287,-37.24382 -31.12155,-38.0091c3.82642,-0.76528 35.71325,11.22416 53.56988,20.15248c17.60153,8.67322 57.90648,41.07024 57.90648,46.17213c0,2.04076 -6.63246,2.55095 -11.47926,0.76528z" />
+                                      <path id="svg_21"
+                                          d="m332.47795,4751.5722c0,-6.63246 14.54039,-24.23399 28.5706,-34.94797c11.47926,-8.41812 44.13137,-25.76456 48.97817,-25.76456c3.31623,0 1.27547,8.16303 -5.86718,22.19323c-4.08151,8.16303 -9.18341,18.877 -11.22416,23.9789c-3.57133,8.67322 -4.8468,9.4385 -19.89738,12.24454c-35.20306,6.12227 -40.56005,6.37737 -40.56005,2.29585z" />
+                                  </g>
+                              </g>
+                          </svg></a> <span
+                          class="info-copyright">Noticias, Analisis, Opinión y todo sobre la actualidad en el mundo del Fútbol Nacional e Internacional. | Algunos derechos reservados (2022).</span>
+                  </div>
+                  <div id="social-media-wrap" class="gz-widget clearfix gz-socials">
+                      <div class="social-icons">
+                          <a class="icon-facebook" href="https://www.facebook.com/golazozoficial" target="_blank"><i
+                                  class="fa fa-facebook"></i></a>
+                          <a class="icon-twitter" href="https://twitter.com/golazoz_" target="_blank"><i
+                                  class="fa fa-twitter"></i></a>
+                          <a class="icon-instagram" href="https://instagram.com/golazoz_" target="_blank"><i
+                                  class="fa fa-instagram"></i></a>
+                          <a class="icon-telegram" href="https://t.me/golazoz" target="_blank"><i
+                                  class="fa fa-telegram"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div id="gz-footer-bottom" class="gz-container clearfix">
+          <div class="footer-menu">
+              <div class="menu-pie-de-pagina-container"><ul id="menu-pie-de-pagina" class="menu"><li id="menu-item-6795" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6795"><a href="https://golazoz.com/nosotros">Nosotros</a></li>
+<li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24"><a href="/privacy/">Cookies &#038; Privacidad</a></li>
+<li id="menu-item-185" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-185"><a href="/dmca/">DMCA</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22"><a href="/contacto/">Contacto</a></li>
+</ul></div>          </div>
+          <div class="copyright">
+              Desarrollado con el poder de <b>Wordpress</b>.
+          </div>
+      </div>
+  </footer>
+  <!-- End Document -->
+  <!--  -->
+<style>
+			.sd-social-icon .sd-content ul li a.sd-button>span {
+				margin-left: 0;
+			}
+		</style><script defer id="bilmur" data-provider="wordpress.com" data-service="atomic"  src="https://s0.wp.com/wp-content/js/bilmur.min.js?m=202427' defer "></script>
+<link rel='stylesheet' id='all-css-f9dc366904cc0ec6677d442033dad77c' href='https://golazoz.com/wp-content/themes/golazozz/css/font-awesome/font-awesome.min.css?m=1661360145' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-css' href='https://fonts-api.wp.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&#038;display=swap&#038;family=Roboto:ital,wght@0,400;0,700;1,400;1,700&#038;display=swap' media='all' />
+<script type='text/javascript'  src='https://golazoz.com/_static/??-eJyFy0ESgjAMQNEL0VYHB2XheJZagqa2iTRBhp5eTgDbP+8vXxOYFEidviGDuBcnX7lWF8WNqD8cxEZpll0YpxnKapFGJFSQUDglm5GO1y2hN6IYPqsRHODpy/EVZlHOm3vk+7m7nfq2v3TXP13mTfY='></script>
+<script type="text/javascript" src="https://stats.wp.com/e-202427.js&#039; defer " id="jetpack-stats-js" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="jetpack-stats-js-after">
+/* <![CDATA[ */
+_stq = window._stq || [];
+_stq.push([ "view", JSON.parse("{\"v\":\"ext\",\"blog\":\"208418167\",\"post\":\"6796\",\"tz\":\"-6\",\"srv\":\"golazoz.com\",\"hp\":\"atomic\",\"ac\":\"2\",\"amp\":\"0\",\"j\":\"1:13.6-beta\"}") ]);
+_stq.push([ "clickTrackerInit", "208418167", "6796" ]);
+/* ]]> */
+</script>
+<script type="text/javascript" id="flying-scripts">const loadScriptsTimer=setTimeout(loadScripts,7*1000);const userInteractionEvents=["mouseover","keydown","touchstart","touchmove","wheel"];userInteractionEvents.forEach(function(event){window.addEventListener(event,triggerScriptLoader,{passive:!0})});function triggerScriptLoader(){loadScripts();clearTimeout(loadScriptsTimer);userInteractionEvents.forEach(function(event){window.removeEventListener(event,triggerScriptLoader,{passive:!0})})}
+function loadScripts(){document.querySelectorAll("script[data-type='lazy']").forEach(function(elem){elem.setAttribute("src",elem.getAttribute("data-src"))})}</script>
+      <style>
+.cookieinfo {
+    top: auto !important;
+    bottom: 20px !important;
+    left: 20px !important;
+    width: 380px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 4px 30px rgb(0, 0, 0);
+    box-shadow: 0 4px 30px rgb(0, 0, 0);
+}
+
+.cookieinfo a {
+    font-weight: bold;
+}
+  </style>
+  <script type="text/javascript" id="cookieinfo"
+      data-message="Al utilizar este sitio, acepta la política de privacidad y " data-bg="#bedb1e"
+      data-divlinkbg="#000000" data-accept-on-scroll="true" data-divlink="#ffffff" data-linkmsg="los términos de uso."
+      data-moreinfo="https://golazoz.com/privacy" data-fg="#000000" data-link="#000000" data-cookie="CookieInfoScript"
+      data-text-align="left" data-close-text="Ok" data-zindex="999" defer data-type="lazy" data-src="//cookieinfoscript.com/js/cookieinfo.min.js"></script>
+
+
+</body>
+
 </html>
